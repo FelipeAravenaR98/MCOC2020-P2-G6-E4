@@ -36,7 +36,7 @@ Barras elegidas para rediseñar
 
  • 23 [nodos 2-5]
 
-A estas barras se les cambio el valor del radio a 10 [cm] y el espesor a 3 [mm] 
+A estas barras se les cambio el valor del radio a 10 [cm] y el espesor a 3 [mm] Los cambios que se pueden observa rediseñando estas barras son cambio en las tensiones las cuales siguen cumpliendo el FU esto se debe al cambio de peso y de la geometria lo que produce cambios en la inercia que tambien afecta las tensiones de la estructura. Se observa un aumento en el FU pero es despreciable por lo que no se logra apreciar en la simulacion.
 
 #### Explique en detalle su función de rediseño de cada barra. Si existen supuestos importantes, declarelos ahora. 
  * En primer lugar, el objetivo de la función de rediseño de cada barra,  fue calcular el valor más optimo para el radio y espesor, logrando así, que el F.U tienda a 1.
@@ -72,6 +72,6 @@ Distancias en metros.
 #### Comente respecto de la nueva distribución de FU del reticulado y el peso del mismo. ¿Que cambios globales se pueden hacer para mejorar aún más el costo (peso del acero) del mismo? 
 
 
-Se modificaron las barras 3, 7 , 20  21, 22, 23 a un radio de 10 [cm] y un espesor de 3 [mm] (INCLUIR FOTO DEL PESO DE LA ESTRUCTURA REDISEÑADA)
+Se modificaron las barras 3, 7 , 20  21, 22, 23 a un radio de 10 [cm] y un espesor de 3 [mm] 
 
 A partir del rediseño realizado se puede observar que el FU para los elementos rediseñados no experimenta ningún cambio esto se debe a que las propiedades geométricas modificadas siguen cumpliendo con las solicitaciones de cargas sometidas a los elementos modificados. Sin embargo, estas modificaciones si disminuyeron el peso de la estructura de un valor de 24197 [kg] a 11856 [kg] lo que implica una optimización en el peso de la estructura. Al reducir el peso y teniendo el mismo comportamiento estructural se están economizando recursos con los cuales se desarrollará una estructura la cual tendrá un menor costo. Observando los resultados entregados se propone eliminar dos barras 0-7 y 3-10 ya que estas no influyen en el FU y además poseen tensiones nulas lo que no afectaría quitarlas del diseño para así reducir mas el peso y por ende el costo de la estructura.
